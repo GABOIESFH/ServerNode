@@ -11,3 +11,14 @@ async function conexion(){
           info = json;
         });
     }
+
+function seleccion1(){
+  var mono = document.getElementById("personaje");
+  var test=document.getElementById("texto");
+  
+  var elegido=mono.value;
+  test.innerHTML="Elegiste: "+ elegido;
+  texto.appendChild("test");
+
+
+}

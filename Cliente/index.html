@@ -7,6 +7,15 @@
     <script src="./script.js"></script>
 </head>
 <body onload="conexion()">
-    
+    <header>
+        <label> Selecciona un personaje</label>
+        <br>
+        <select id="personajes" onchange="seleccion1()">
+            <option value="0">Guerrero</option>
+            <option value="1">Paladin</option>
+            <option value="2">King</option>
+        </select>
+    </header>
+  <div id="texto"></div>
 </body>
 </html>
