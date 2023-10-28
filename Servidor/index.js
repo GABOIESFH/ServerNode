@@ -8,9 +8,9 @@ app.use(cors({
     methods: ['GET', 'POST', 'DELETE', 'UPDATE']
     }));
 
-const final = [
+var final = [
 	{
-		clase: "guerrero",
+		clase: "Guerrero",
 		atributos: {
 			fuerza: 15,
 			destreza: 20,
@@ -18,10 +18,10 @@ const final = [
 			carisma: 13,
 			suerte: 8
 		},
-		armas:["hacha", "espada", "escudo"]	
+		Armas:["hacha", "espada", "escudo"]	
 	},
 	{
-		clase: "paladin",
+		clase: "Paladin",
 		atributos: {
 			fuerza: 14,
 			destreza: 15,
@@ -32,7 +32,7 @@ const final = [
 		Armas:["baculo", "espada", "escudo"]
 	},
     {
-		clase: "king",
+		clase: "Brujo",
 		atributos: {
 			fuerza: 25,
 			destreza: 9,
